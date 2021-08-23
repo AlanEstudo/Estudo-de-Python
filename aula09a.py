@@ -4,7 +4,7 @@
 # frase[1:15:2] retorna os caracter do 1 ao 15 pulando de 2 em 2
 # len(frase) retorna o tamanho da string
 # frase,count('a') retorna a quantidade do caracter
-# frase.find('deo') retorna qual a possição do ponteiro começoou
+# frase.find('deo') retorna qual a possição do ponteiro começou
 # 'curso' in frase retorna true ou false dentro da string
 # frase.replace('Phyton', 'Android') substitui a 1 string pela segunda
 # frase.upper() trasnforma todas as letras em maiuscula
