@@ -10,7 +10,7 @@
 # frase.upper() trasnforma todas as letras em maiuscula
 # frase.lower() transforma todas as letras em minuscula
 # frase.capitalize() transforma toda a string a minuscula e a primeira letra em Maiuscula
-# frase.title() transcaforma todos os 1ª caracter das palavras em maiuscula
+# frase.title() transforma todos os 1ª caracter das palavras em maiuscula
 # frase.strip() remove os espaços no inicio e no fim da string
 # frase.rstrip() remove apenas os ultimos espaços da string
 # frase.lstrip() remove apenas os primeiros espaços da string
