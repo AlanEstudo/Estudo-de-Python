@@ -10,5 +10,5 @@ if vlN1 > vlN2:
     print('O primeiro número é maior!')
 elif vlN2 > vlN1:
     print('O segundo número é maior!')
-elif vlN1 == vlN2 or vlN2 == vlN1:
+else:
     print('Não existe valor maior, os dois são iquais!')
