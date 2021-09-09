@@ -7,10 +7,9 @@ cont = 0
 soma = 0
 sair = int(input('Digite um valor [999] para parar: '))
 while sair != 999:
-   sair = int(input('Digite um valor [999] para parar: '))
    cont += 1
    soma += sair
-
+   sair = int(input('Digite um valor [999] para parar: '))
 print('Foram digitados {} numeros.'.format(cont))
 print('A soma entre os números digitados é {}.'.format(soma))
 print('Fim do programa!!!')
