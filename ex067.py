@@ -8,4 +8,5 @@ while True:
         break
     for c in range(1, 10):
         print(f'{numero} x {c} = {numero * c}')
+    print('=' * 35)
 print('PROGRAMA TABUADA ENCERRADO!')
