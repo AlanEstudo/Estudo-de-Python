@@ -5,7 +5,7 @@
 from random import randint
 from time import sleep
 
-computador = soma = 0
+computador = soma = cont = 0
 jogada_jogador = jogada_computador = resultado = sair = ''
 print('='*43)
 print('=>'*6, 'JOGO PAR OU ÍMPAR', '<='*6)
@@ -27,7 +27,7 @@ while True:
     print('Computador jogando ...')
     print('-' * 43)
     sleep(1)
-    computador = randint(1, 9)
+    computador = randint(1, 10)
     soma = jogador + computador
     if computador % 2 == 0:
         jogada_computador = 'PAR'
@@ -45,8 +45,11 @@ while True:
 
     if resultado == jogada_jogador:
         print('GANHOU')
+        cont +=1
     else:
         print('PERDEU')
+        print('-' * 43)
+        print(f'Você ganhou {cont} vezes.')
         break
 
 
