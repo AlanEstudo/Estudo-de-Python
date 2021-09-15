@@ -12,10 +12,14 @@
 #for c in lanche:
 #    print(f'Eu vou comer {c}')
 
-a = (2, 5, 4)
-b = (5, 8, 1, 2)
-c = b + a
-print(c.count(9))
+#a = (2, 5, 4)
+#b = (5, 8, 1, 2)
+#c = b + a
+#print(c.count(9))
+#print(c.index(5))
 
+pessoa = ('Alan', 32, 'M', 100.00)
+del (pessoa) # apaga tupla inteira
+print(pessoa)
 
 
