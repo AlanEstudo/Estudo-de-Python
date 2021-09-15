@@ -7,7 +7,7 @@
 #    print(f'Eu vou comer {c} na posição{pos}')
 
 #for c in range(0, len(lanche)):
-#    print(f'eu vou comer {lanche[c]} na posição {c}')
+ # print(f'eu vou comer {lanche[c]} na posição {c}')
 
 #for c in lanche:
 #    print(f'Eu vou comer {c}')
@@ -18,8 +18,8 @@
 #print(c.count(9))
 #print(c.index(5))
 
-pessoa = ('Alan', 32, 'M', 100.00)
-del (pessoa) # apaga tupla inteira
-print(pessoa)
+#pessoa = ('Alan', 32, 'M', 100.00)
+#del (pessoa) # apaga tupla inteira
+#print(pessoa)
 
 
