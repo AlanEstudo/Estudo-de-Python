@@ -20,7 +20,7 @@ print('-' * 30)
 print('Times em ordem alfabéticas: ')
 print(sorted(lista_Futebol_2021))
 print('-' * 30)
-print(f'Chapecoense esta na posição : {lista_Futebol_2021.index("Chapecoense")}º')
+print(f'Chapecoense esta na posição : {lista_Futebol_2021.index("Chapecoense")+1}º')
 
 
 
