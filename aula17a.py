@@ -6,8 +6,8 @@
 # variavel.pop(3) => apaga o elemento no indice 2, caso não passa o indici apaga o ultimo elemento
 # variavel.remove('item') => remove pelo valor da lista
 # valores = list(range(4, 11)) => cria uma lista
-# lista.sorte() => colocar em ordem os valores dentro da lista
-# lista.sorte(reverse=True) => colocar os valores e orden decrescente
+# lista.sort() => colocar em ordem os valores dentro da lista
+# lista.sort(reverse=True) => colocar os valores e orden decrescente
 # len(lista) => saber quantos elementos tem na lista
 
 #valores = []
