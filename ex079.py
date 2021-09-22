@@ -5,7 +5,12 @@
 lista_numeros = []
 while True:
     valor = int(input('Digite um valor: '))
-    lista_numeros.append(valor)
+    if valor not in lista_numeros:
+        lista_numeros.append(valor)
+        print('Valor adicionado com sucesso')
+    else:
+        print('Valor duplicado! Não adicionado')
+        
     sair = ' '
     while sair not in 'NS':
         sair = str(input('Quer continuar? [S/N]')).upper().strip()[0]
