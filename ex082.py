@@ -2,7 +2,7 @@
 # Depois crie 2 lista extra que vão conter apenas os valores pares o os valores impares digitados.
 # Ao final mostre o conteúdo das três listras geradas
 
-lista_numeros= []
+lista_numeros = []
 lista_impar = []
 lista_par = []
 while True:
@@ -10,7 +10,7 @@ while True:
     sair = str(input('Quer continuar? [S/N]')).upper().strip()[0]
     if sair in 'N':
         break
-for cont in range (0, len(lista_numeros)):
+for cont in range(0, len(lista_numeros)):
     if lista_numeros[cont] % 2 == 0:
         lista_par.append(lista_numeros[cont])
     else:
