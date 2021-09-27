@@ -18,5 +18,12 @@ while True:
         break
 print('=-'*30)
 print(f'Ao todo, você cadstrou {len(princ)} pessoas.')
-print(f'O maior peso foi de {mai}KG.')
+print(f'O maior peso foi de {mai}KG. Peso de ', end='')
+for p in princ:
+    if p[1] == men:
+        print(f'[{p[0]}] ', end='')
+        print()
 print(f'O menor peso foi de {men}KG.')
+for p in princ:
+    if p[1] == mai:
+        print(f'[{p[0]}] ', end='')
