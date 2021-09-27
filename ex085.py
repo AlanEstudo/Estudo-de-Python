@@ -5,7 +5,7 @@
 numeros = [[], []]
 valor = 0
 
-for c in range (0, 7):
+for c in range(0, 7):
     valor = int(input(f'Digite o {c + 1}ª valor: '))
     if valor % 2 == 0:
         numeros[0].append(valor)
