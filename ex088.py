@@ -3,6 +3,7 @@
 # e vai sortear 6 números entre 1 e 60 para cada jogo,
 # cadastrando tudo em uma lista composta.
 from random import randint
+from time import sleep
 print('-' * 40)
 print('           JOGO DA MEGA SENA         ')
 print('-' * 40)
@@ -27,4 +28,5 @@ for c in range(0, qnt_jogo):
 
 for indice, lista in enumerate(jogos):
     print(f'jogo {indice + 1}: {lista}')
-
+    sleep(1)
+print('-=' * 5, '< BOA SORTE! >', '-=' * 5)
